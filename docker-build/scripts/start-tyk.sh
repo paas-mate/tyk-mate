@@ -6,10 +6,9 @@ REDIS_PORT=${TYK_REDIS_PORT}
 REDIS_PASS=${TYK_REDIS_PASS}
 REDIS_CLUSTER=${TYK_REDIS_CLUSTER}
 
-mkdir -p ${TYK_HOME}/conf
 mkdir -p ${TYK_HOME}/apps
+mkdir -p ${TYK_HOME}/conf
 mkdir -p ${TYK_HOME}/middleware
-mkdir -p ${TYK_HOME}/templates
 
 if [ -z "${REDIS_HOST}" ]
 then
